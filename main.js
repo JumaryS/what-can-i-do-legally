@@ -1,7 +1,9 @@
 const legalStuff = require('./back-end.js')
-
+// gets user's age from the console
 const age = getInput(0)
+//gets user's message based on that age from the back end
 const outPut = legalStuff(age)
+//print it out for the user
 console.log(outPut)
 
 
